@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /* universal selector */
+
+        h1{
+            background-color: aquamarine;
+            /* border-style: solid;
+            border-width: 2px;  --thickness of border
+            border-color: blue; */
+            border: solid brown 5px;
+            border-radius: 5px;  
+            /* makes corners of border rounded */
+            border-bottom-left-radius: 10px;
+            /* we can specify individual corner as well */
+            /* border-top: black; */
+            /* we can specify particular side as well as written in above commented line*/
+            width: 450px;
+            /* width of the box for the heading */
+        }
+        span{
+            background-color: aliceblue;
+            border: solid blue 3px;
+            width: 450px;
+            /* doesn't matter with width or height as it is a span-tag */
+            border-radius: 5px; 
+        }
+        .firstpara{
+            background-color: antiquewhite;
+            border: solid blue 3px;
+            width: 450px;
+            height: 100px;
+            /* height of box can be specified */
+            border-radius: 5px;  
+            padding: 10px; 
+            /* space btw content and border is padding */
+            margin: 60px;
+            /* gap btw two boxes is margin */
+            
+        }
+        .secondpara{
+            background-color: aliceblue;
+            border: solid blue 3px;
+            width: 450px;
+            border-radius: 5px; 
+            padding: 10px, 20px, 30px, 40px;
+            /* shorthand notation of specifying all sides padding */
+            /* if only two values are specified, then consider as vertical-yaxis and horizontal-xaxis */
+            /* margin-top:60px; */
+            margin: 60px;
+        }
+        .thirdpara{
+            background-color: azure;
+            border: solid blue 3px;
+            width: 450px;
+            border-radius: 5px;  
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO CODE-HELP</h1>
+
+    <span>Welcome to my dev</span>
+
+    <p class="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita accusamus in ad, quod neque aliquam nesciunt velit iure, voluptate ratione dolores, voluptas odio minus.</p>
+
+    <p class="secondpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, maxime, animi odit ullam ducimus corrupti ut ad aspernatur quod distinctio ex obcaecati ratione maiores modi eius laborum, cumque mollitia voluptas?</p>
+
+    <p class="thirdpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores nemo quasi eos iusto distinctio labore sequi consequatur ab rerum, quas porro aliquam! Omnis consequuntur, doloremque itaque facere nostrum exercitationem. Perspiciatis temporibus molestiae nemo voluptatum.</p>
+
+</body>
+</html>
